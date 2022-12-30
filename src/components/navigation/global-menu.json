@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navigation_global_menus",
+  "info": {
+    "displayName": "globalMenu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.global-link",
+      "max": 2
+    }
+  }
+}

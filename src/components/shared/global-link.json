@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_global_links",
+  "info": {
+    "displayName": "globalLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "global_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::global-category.global-category"
+    }
+  }
+}

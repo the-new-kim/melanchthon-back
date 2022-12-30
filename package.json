@@ -1,0 +1,37 @@
+{
+  "name": "melanchthon-2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@offset-dev/strapi-calendar": "^0.0.9",
+    "@strapi/plugin-color-picker": "^4.5.4",
+    "@strapi/plugin-i18n": "4.5.4",
+    "@strapi/plugin-seo": "^1.7.7",
+    "@strapi/plugin-users-permissions": "4.5.4",
+    "@strapi/provider-upload-aws-s3": "^4.5.4",
+    "@strapi/strapi": "4.5.4",
+    "pg": "8.6.0",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-placeholder": "^4.3.6",
+    "strapi-plugin-populate-deep": "^1.1.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3ce14557-5e27-4fa9-a773-bab9f29b7b45"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
