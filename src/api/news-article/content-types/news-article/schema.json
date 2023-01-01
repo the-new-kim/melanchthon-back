@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "news_articles",
   "info": {
-    "singularName": "page",
-    "pluralName": "pages",
-    "displayName": "Page",
+    "singularName": "news-article",
+    "pluralName": "news-articles",
+    "displayName": "News Article",
     "description": ""
   },
   "options": {
@@ -25,28 +25,29 @@
       "type": "string",
       "required": true
     },
-    "url": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "unique": false,
-      "required": true,
-      "regex": "^\\/$|^(\\/[a-z0-9\\-]+){0,10}?$",
-      "default": "/"
+      "type": "uid",
+      "targetField": "title"
     },
-    "blocks": {
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "dynamiczone",
-      "components": ["blocks.editor"]
+      }
     },
-    "seo": {
+    "content": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -54,13 +55,20 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "blocks.editor"
     },
     "global_category": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::global-category.global-category",
-      "inversedBy": "pages"
+      "relation": "oneToOne",
+      "target": "api::global-category.global-category"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

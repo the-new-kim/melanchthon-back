@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_events",
+  "info": {
+    "displayName": "Events",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "list",
+        "grid"
+      ],
+      "default": "list"
+    },
+    "global_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::global-category.global-category"
+    }
+  }
+}
