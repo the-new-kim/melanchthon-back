@@ -45,6 +45,21 @@
       "relation": "oneToMany",
       "target": "api::page.page",
       "mappedBy": "global_category"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "news_articles": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "exhibitions": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     }
   }
 }
