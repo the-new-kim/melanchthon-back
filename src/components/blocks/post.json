@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_posts",
+  "info": {
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "postType": {
+      "type": "enumeration",
+      "enum": [
+        "news-articles",
+        "exhibitions",
+        "events"
+      ],
+      "required": true
+    }
+  }
+}
