@@ -46,7 +46,7 @@
       "type": "dynamiczone",
       "components": [
         "blocks.editor",
-        "blocks.post"
+        "blocks.post-list"
       ]
     },
     "seo": {

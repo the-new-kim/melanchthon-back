@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_blocks_posts",
+  "collectionName": "components_blocks_post_lists",
   "info": {
-    "displayName": "post",
-    "description": ""
+    "displayName": "postList"
   },
   "options": {},
   "attributes": {
