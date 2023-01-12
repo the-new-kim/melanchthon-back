@@ -50,7 +50,8 @@
         "blocks.hero",
         "blocks.timeline",
         "blocks.image-carousel",
-        "blocks.big-links"
+        "blocks.big-links",
+        "blocks.team"
       ]
     },
     "seo": {

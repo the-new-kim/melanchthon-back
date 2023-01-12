@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_teams",
+  "info": {
+    "displayName": "team"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "people": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::person.person"
+    }
+  }
+}
