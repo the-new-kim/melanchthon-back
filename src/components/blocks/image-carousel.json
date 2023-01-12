@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_image_carousels",
+  "info": {
+    "displayName": "imageCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.carousel-item"
+    }
+  }
+}

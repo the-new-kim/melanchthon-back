@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_navigation_footer_menus",
+  "info": {
+    "displayName": "footerMenu"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

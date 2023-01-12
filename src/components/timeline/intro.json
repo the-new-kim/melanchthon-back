@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_timeline_intros",
+  "info": {
+    "displayName": "intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

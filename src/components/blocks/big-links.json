@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_big_links",
+  "info": {
+    "displayName": "bigLinks"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

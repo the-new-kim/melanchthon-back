@@ -46,7 +46,11 @@
       "type": "dynamiczone",
       "components": [
         "blocks.editor",
-        "blocks.post-list"
+        "blocks.post-list",
+        "blocks.hero",
+        "blocks.timeline",
+        "blocks.image-carousel",
+        "blocks.big-links"
       ]
     },
     "seo": {
