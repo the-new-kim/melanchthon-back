@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-card"
+    }
+  }
+}

@@ -10,19 +10,18 @@
       "type": "string",
       "required": true
     },
-    "externalUrl": {
+    "href": {
       "type": "string",
-      "required": false,
-      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+      "required": true,
+      "default": "/"
     },
-    "openNewTab": {
-      "type": "boolean",
-      "default": false
-    },
-    "page": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ],
+      "default": "_self"
     }
   }
 }
