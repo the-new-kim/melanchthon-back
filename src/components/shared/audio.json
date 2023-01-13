@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_audio",
+  "info": {
+    "displayName": "audio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "audio": {
+      "allowedTypes": [
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -53,7 +53,8 @@
         "blocks.big-links",
         "blocks.team",
         "blocks.grid",
-        "blocks.cta"
+        "blocks.cta",
+        "blocks.dock"
       ]
     },
     "seo": {

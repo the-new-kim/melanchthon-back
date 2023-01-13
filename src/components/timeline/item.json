@@ -20,12 +20,17 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.text"
     },
     "link": {
-      "type": "string"
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_docks",
+  "info": {
+    "displayName": "dock"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
