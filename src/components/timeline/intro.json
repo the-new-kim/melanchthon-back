@@ -1,7 +1,8 @@
 {
   "collectionName": "components_timeline_intros",
   "info": {
-    "displayName": "intro"
+    "displayName": "intro",
+    "description": ""
   },
   "options": {},
   "attributes": {

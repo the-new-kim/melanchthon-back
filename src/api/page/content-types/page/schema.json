@@ -54,7 +54,8 @@
         "blocks.team",
         "blocks.grid",
         "blocks.cta",
-        "blocks.dock"
+        "blocks.dock",
+        "blocks.audio-guide"
       ]
     },
     "seo": {
